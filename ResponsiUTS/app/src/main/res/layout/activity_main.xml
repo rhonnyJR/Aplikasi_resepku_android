@@ -1,0 +1,99 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="4dp"
+    android:paddingLeft="4dp"
+    android:paddingTop="10dp">
+
+    <Button
+        android:id="@+id/btn_menu1"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Judul"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="238dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/recipe"
+        android:text="Daftar Resep"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_menu2"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_menu1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/user"
+        android:text="Profil"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_menu3"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_menu1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="82dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/androi"
+        android:text="info"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_menu2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="85dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/logout"
+        android:text="Keluar"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="125dp"
+        android:text="Resepku"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="206dp"
+        android:layout_below="@+id/Judul"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="110dp"
+        app:srcCompat="@drawable/resepku" />
+</RelativeLayout>
